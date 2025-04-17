@@ -14,3 +14,13 @@ A Flask-based prototype that uses Azure OpenAI (GPT) to perform Root Cause Analy
    export AZURE_OPENAI_ENDPOINT="https://<your-resource>.openai.azure.com/"
    export AZURE_OPENAI_KEY="<your-key>"
    export AZURE_DEPLOYMENT_NAME="gpt-35-turbo"
+   
+2.	Install dependencies:
+
+   pip install -r requirements.txt
+
+3.	Run the server:
+
+   python backend/main.py
+
+4.	Open your browser at http://localhost:5000.
